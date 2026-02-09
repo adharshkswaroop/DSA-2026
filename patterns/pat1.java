@@ -4,6 +4,7 @@ import java.util.*;
 
 public class pat1 {
     public static void main(String[] args) {
+        System.out.println("right le triangle patter:");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
