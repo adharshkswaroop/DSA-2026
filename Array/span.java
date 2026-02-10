@@ -8,7 +8,7 @@ public class span{
         for(int i=0;i<arr.length;i++){
             arr[i]=s.nextInt();
         }
-
+        
         System.out.println(Arrays.toString(arr));
 
         int max=arr[0];
