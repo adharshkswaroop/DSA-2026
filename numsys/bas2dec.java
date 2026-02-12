@@ -1,6 +1,6 @@
 package numsys;
 import java.util.*;
-public class dec2base {
+public class bas2dec {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();  
@@ -13,10 +13,10 @@ public class dec2base {
 
         int p=1;
         while(n>0){
-            int dig=n%b;
-            n=n/b;
+            int dig=n%10;
+            n=n/10;
             rv+=dig*p;
-            p=p*10;
+            p=p*b;
         }
         return rv;
     }
