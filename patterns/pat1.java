@@ -16,3 +16,9 @@ public class pat1 {
         }
     }
 }
+
+// logic: Dry run/ memory diagram 
+// 1. initilze the loops i, j 
+// 2. outer i loop for rows 
+// 3. inner j loop for coloums, it is responsible for no. of stars wanna print
+
