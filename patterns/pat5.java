@@ -1,3 +1,4 @@
+package patterns;
 import java.util.*;
 public class pat5 {
     public static void main(String[] args) {
