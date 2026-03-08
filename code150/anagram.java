@@ -3,6 +3,7 @@ import java.util.*;
 public class anagram {
    public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
+    System.out.println("string1 alphabets = string2 alphabets");
     String s=sc.nextLine();
     String t=sc.nextLine();
     anagram ag=new anagram();
