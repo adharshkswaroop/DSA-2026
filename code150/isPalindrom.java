@@ -4,7 +4,6 @@ public class isPalindrom {
     public static void main(String[] args) {
         isPalindrom pp=new isPalindrom();
 
-       
         System.out.println( pp.isPalindrome("ilyyli"));
     }
     public static Boolean checkPalindrom(String s){
