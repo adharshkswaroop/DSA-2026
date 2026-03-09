@@ -3,7 +3,7 @@ import java.util.*;
 public class validparenthesis{
     public static void main(String[] args) {
         validparenthesis vp=new validparenthesis();
-        System.out.println(vp.isValid("{]"));
+        System.out.println(vp.isValid("aa"));
     }
     public boolean isValid(String s) {
         Stack<Character> stack=new Stack<>();
@@ -13,9 +13,7 @@ public class validparenthesis{
             else if(!stack.isEmpty()&& ch==')'&& stack.peek()=='(') stack.pop();
             else if(!stack.isEmpty()&& ch=='}'&& stack.peek()=='{') stack.pop();
             else if(!stack.isEmpty()&& ch==']'&& stack.peek()=='[') stack.pop();
-            else {
-                return false;
-            }
+            else return false;
         }
         return stack.isEmpty();
     }
